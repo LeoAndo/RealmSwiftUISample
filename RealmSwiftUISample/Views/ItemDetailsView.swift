@@ -23,3 +23,11 @@ struct ItemDetailsView: View {
         }.padding()
     }
 }
+
+struct ItemDetailsView_Previews: PreviewProvider {
+    static let previewTargetDevice:PreviewDevice = PreviewDevice(rawValue: "iPhone 12 mini")
+    static var previews: some View {
+        ItemDetailsView(item: Item())
+            .previewDevice(previewTargetDevice)
+    }
+}
