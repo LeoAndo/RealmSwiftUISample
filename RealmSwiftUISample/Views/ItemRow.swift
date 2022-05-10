@@ -11,7 +11,7 @@ import RealmSwift
 /// リスト内のアイテムを表示するView
 struct ItemRow: View {
     @ObservedRealmObject var item: Item
-
+    
     var body: some View {
         // リスト内の項目をクリックすると、詳細の編集画面に遷移する
         NavigationLink(destination: ItemDetailsView(item: item)) {

@@ -11,7 +11,7 @@ import RealmSwift
 /// 編集可能なアイテム詳細View
 struct ItemDetailsView: View {
     @ObservedRealmObject var item: Item
-
+    
     var body: some View {
         VStack(alignment: .leading) {
             Text("Enter a new name:")

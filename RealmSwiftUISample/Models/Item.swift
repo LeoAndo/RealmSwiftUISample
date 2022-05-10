@@ -25,13 +25,13 @@ let randomNouns = [
 final class Item: Object, ObjectKeyIdentifiable {
     /// グループの一意のID。 `primaryKey：true`は、_idメンバーをRealmの主キーとして宣言
     @Persisted(primaryKey: true) var _id: ObjectId
-
+    
     /// アイテムの名前 (デフォルト値はランダムに決める)
     @Persisted var name = "\(randomAdjectives.randomElement()!) \(randomNouns.randomElement()!)"
-
+    
     /// アイテムのお気に入りフラグ
     @Persisted var isFavorite = false
-
+    
     /// このアイテムが含まれている`Group`へのバックリンク
     @Persisted(originProperty: "items") var group: LinkingObjects<Group>
 }
