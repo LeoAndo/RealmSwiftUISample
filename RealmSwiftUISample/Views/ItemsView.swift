@@ -49,3 +49,11 @@ struct ItemsView: View {
     }
 }
 
+struct ItemsView_Previews: PreviewProvider {
+    static let previewTargetDevice:PreviewDevice = PreviewDevice(rawValue: "iPhone 12 mini")
+    static var previews: some View {
+        ItemsView(group: Group())
+            .previewDevice(previewTargetDevice)
+    }
+}
+
