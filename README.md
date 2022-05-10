@@ -5,6 +5,21 @@ SwiftUI用のRealmの扱いが従来とかなり変わっていたため、公�
 
 <img width="214" alt="スクリーンショット 2022-04-27 22 26 52" src="https://user-images.githubusercontent.com/16476224/167673332-3b42b52a-c35b-405f-a9f3-1fa21dd6d15b.png">
 
+# プロジェクトの設定
+
+Pod Installが必要なので、以下の手順でXcodeで開いてください。<br>
+
+ターミナルで以下のコマンドを実行する
+```
+git clone https://github.com/LeoAndo/RealmSwiftUISample.git
+cd  RealmSwiftUISample
+pod install
+```
+Xcodeでプロジェクトを開くときは、「RealmSwiftUISample.xcworkspace」をダブルクリックして開いてください。<br>
+
+<img width="318" alt="スクリーンショット 2022-05-11 1 13 04" src="https://user-images.githubusercontent.com/16476224/167674538-4c326664-7635-483e-8b07-f63d504f5272.png">
+
+
 # スクリーンショット (iPhone 13 mini : iOS 15.4)
 
 | Add | Delete | Edit | Move |
