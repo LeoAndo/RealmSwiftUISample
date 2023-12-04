@@ -26,9 +26,5 @@ Xcodeでプロジェクトを開くときは、「RealmSwiftUISample.xcworkspace
 |:---|:---:|:---:|:---:|
 |<img src="https://user-images.githubusercontent.com/16476224/167672509-8eea8a28-8a56-4e40-9424-d9a743b933ad.gif" width=320 /> |<img src="https://user-images.githubusercontent.com/16476224/167672645-61d3f5b5-ef56-440c-b2e2-eb3b76c8f631.gif" width=320 /> | <img src="https://user-images.githubusercontent.com/16476224/167672935-42b8b8c6-8613-4115-a2ed-83e4196b6273.gif" width=320 /> | <img src="https://user-images.githubusercontent.com/16476224/167673018-c8590c59-dc1a-45d7-90ee-a6d63825ffbe.gif" width=320 /> |
 
-# 開発 / 設計メモ
-
-<img width="600" alt="スクリーンショット 2022-05-12 11 45 05" src="https://user-images.githubusercontent.com/16476224/167981742-b0fde903-272e-4bf7-859b-b6302aebea11.png">
-
 # コーディングフロー
 https://github.com/LeoAndo/RealmSwiftUISample/pulls?q=is%3Apr+is%3Aclosed<br>
